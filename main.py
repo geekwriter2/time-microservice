@@ -10,8 +10,9 @@ app = Flask(__name__)
 def get_unix_time():
     """get unix time"""
 
-    unix_time = CURRENT_TIME
-    return str(unix_time)
+    #unix_time = CURRENT_TIME
+    #return str(unix_time)
+    return('Hello World')
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 6738))
